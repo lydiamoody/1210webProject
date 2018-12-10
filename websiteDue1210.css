@@ -1,0 +1,152 @@
+body {
+    margin: 20px;
+    background: #d9bb8e;
+    font-family: "work sans", sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+.container {
+    width: 805;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #5f9080;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 2px;
+
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #013a30;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1 {
+    color: black;
+    font-size: 24px;
+}
+
+.expl{
+    color: black;
+    font-size: 20px;
+}
+
+.code{
+    color: white;
+    font-size: 16px;
+    background-color: #000;
+    height: 60px;
+    width: 300px;
+}
+
+.code2{
+    color: white;
+    font-size: 16px;
+    background-color: #000;
+    height: 130px;
+    width: 475px;
+}
+.code3{
+    color: white;
+    font-size: 16px;
+    background-color: #000;
+    height: 60px;
+    width: 500px;
+}
+
+section{
+    font-size: 14px;
+}
+
+h3{
+    color: #871a1a;
+    font-size: 28px;
+}
+
+#titl{
+    text-align: center;
+    font-size: 20px;
+}
+.sidenavcontainer {
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: #5f9080;
+    width: 300px;
+    margin: auto;
+    padding: 1em;
+    border-radius: 5px;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    position: relative;
+    bottom: 600px;
+    left: 409px; 
+  }
+
+li a { 
+    color: whitesmoke;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #871a1a;
+    color: #ffffff;
+}
